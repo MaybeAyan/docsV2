@@ -10,6 +10,7 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  base:'/docsV2/',
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
