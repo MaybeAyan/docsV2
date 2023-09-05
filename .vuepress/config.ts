@@ -15,6 +15,9 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "Ayan",
     authorAvatar: "/aimyon.jpg",
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     lastUpdatedText: "最近更新",
     navbar: [
       { text: "首页", link: "/",icon: "Home" },
@@ -22,7 +25,8 @@ export default defineUserConfig({
       { text: "标签", link: "/tags/shenghuo/1/", icon: "Tag" },
       { text: "时间轴", link: "/timeline"},
       {text:'相册', link:"https://maybeayan.github.io/photoAlbum/"},
-      { text: '留言板', link: '/docs/message-board', icon: 'Chat' }
+      { text: '留言板', link: '/docs/message-board', icon: 'Chat' },
+      {text:'关于',link:'/docs/about-me'}
     ],
     VuePreviewDir:"./docs/.vuepress/vue-previews",
     commentConfig: {
