@@ -5,7 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: "Ayan",
+  title: "EveryDay All I love",
   description: '永远相信美好的事情即将发生',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -26,9 +26,10 @@ export default defineUserConfig({
       { text: "时间轴", link: "/timeline"},
       {text:'相册', link:"https://maybeayan.github.io/photoAlbum/"},
       { text: '留言板', link: '/docs/message-board', icon: 'Chat' },
-      {text:'关于',link:'/docs/about-me'}
+      {text:'关于',link:'https://maybeayan.github.io/about/'}
     ],
     VuePreviewDir:"./docs/.vuepress/vue-previews",
+    componentsDir: "./docs/.vuepress/components",
     commentConfig: {
       type: 'giscus',
       options: {
