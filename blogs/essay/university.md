@@ -5,6 +5,7 @@ categories:
   - 随笔
 tags: 
   - 生活
+next: /blogs/essay/newStart
 ---
 
 在一生仅有一次的大学生涯里  
