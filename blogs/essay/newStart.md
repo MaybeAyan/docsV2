@@ -6,6 +6,7 @@ categories:
 tags: 
   - 生活
 prev: /blogs/essay/university
+next: /blogs/essay/trip
 ---
 
 ## 冷冷清清的风风火火
