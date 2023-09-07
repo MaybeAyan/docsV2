@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 import recoTheme from "vuepress-theme-reco";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -46,8 +47,10 @@ export default defineUserConfig({
     plugins:[
       prismjsPlugin({
         preloadLanguages:['markdown', 'jsdoc', 'yaml']
-      })
-
+      }),
+      googleAnalyticsPlugin({
+        id: 'G-TND2H804VN',
+      }),
     ]
   }),
 });
