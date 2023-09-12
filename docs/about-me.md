@@ -1,6 +1,5 @@
 ---
 title: 关于
-sticky: true
 ---
 
 ## 关于本站的搭建

@@ -3,7 +3,6 @@ title: TypeScript学习笔记
 date: 2022-07-04
 tags:
   - typescript
-sticky: true
 categories:
   - 前端
 ---

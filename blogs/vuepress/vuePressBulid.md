@@ -5,7 +5,6 @@ tags:
   - vuepress
 categories:
   - 博客
-sticky: true
 ---
 
 ## 前期准备
