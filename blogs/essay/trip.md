@@ -6,6 +6,7 @@ categories:
 tags: 
   - 生活
 prev: /blogs/essay/newStart
+next: /blogs/essay/DepapepeStart
 ---
 
 ​窗外有雷，雨几分淅沥，据说是三台风共舞
