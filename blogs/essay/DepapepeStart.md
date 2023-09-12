@@ -35,6 +35,7 @@ prev: /blogs/essay/trip
 
 我偶尔也会感慨，人生找到一个自洽的平衡点真的好难啊！按照世俗规律稳定上班的时候就会觉得单调乏陈的工作在消耗自己生命中很宝贵的东西，可是突然失去这份平凡的稳定又会手足无措，担心自己朝不保夕。或许焦虑就是难免的，因为这证明我们想追求更好的生活，只是需要时间和契机。而一直保持内心强大也太强人所难，沉浮的时候不妨就让自己放空漂流一会，就当是神明赐予的假期吧！
 
+[![](https://pic.imgdb.cn/item/65003c1a661c6c8e54f0e53e.jpg)](https://pic.imgdb.cn/item/65003c1a661c6c8e54f0e53e.jpg)
 
 ## 「Diary」
 「我总会在一些无关紧要的人生片段里，做着一场场“豪赌”」
@@ -54,6 +55,8 @@ prev: /blogs/essay/trip
 “mio 你一定要健健康康地长大啊”
 
 这样的话语脱口而出；
+
+[![](https://pic.imgdb.cn/item/65003c4d661c6c8e54f12887.jpg)](https://pic.imgdb.cn/item/65003c4d661c6c8e54f12887.jpg)
 
 ## 「ARIGATOU」
 
@@ -80,6 +83,8 @@ prev: /blogs/essay/trip
 一些人与人的邂逅真是曼妙言喻！
 
 非常感谢！
+
+[![](https://pic.imgdb.cn/item/65003c60661c6c8e54f13fde.jpg)](https://pic.imgdb.cn/item/65003c60661c6c8e54f13fde.jpg)
 
 ## 「START」
 
