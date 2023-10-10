@@ -5,6 +5,7 @@ tags:
   - node
 categories:
   - 前端
+next: /blogs/web/CSRSSR
 ---
 
 NodeJs 模块化遵循两套规范 `commonJS` 规范和 `esm` 规范
