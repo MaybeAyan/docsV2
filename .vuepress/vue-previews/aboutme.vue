@@ -1,5 +1,5 @@
 <template>
-    <div>
+  <div class="body">
     <main class="about">
       <div class="box left">
         <!-- <img src="./assets/images/orange4u.png" alt=""> -->
@@ -40,25 +40,23 @@
         </ul>
       </div>
     </section>
-    </div>
+  </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-html, body {
+.body {
   height: 100%;
   min-width: 346px;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background: #7F7FD5;
-  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+.body {
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
   font-size: 16px;
   font-family: JetBrainsMono;
 }
@@ -107,18 +105,18 @@ main.home .icon-list {
   user-select: none;
 }
 
-main.home .icon-list .icon-item a{
+main.home .icon-list .icon-item a {
   display: inline-block;
   border-bottom: 2px solid rgba(0, 53, 255, 0);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-main.home .icon-list .icon-item:hover a{
+main.home .icon-list .icon-item:hover a {
   color: #0035ff;
   border-color: rgba(0, 53, 255, 1);
 }
 
-main.home .icon-list .icon-item .iconfont{
+main.home .icon-list .icon-item .iconfont {
   font-size: 20px;
 }
 
@@ -156,7 +154,7 @@ main.about .left {
   text-align: center;
 }
 
-main.about .left h2{
+main.about .left h2 {
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -172,7 +170,8 @@ section.info-list {
   min-width: 316px;
 }
 
-main.about .box, section.info-list .info-item{
+main.about .box,
+section.info-list .info-item {
   margin-bottom: 20px;
   padding: 20px 20px;
   box-sizing: border-box;
@@ -180,14 +179,16 @@ main.about .box, section.info-list .info-item{
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   border: 2px solid rgba(0, 53, 255, 0);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-main.about .box:hover, section.info-list .info-item:hover{
+main.about .box:hover,
+section.info-list .info-item:hover {
   border-color: rgba(0, 53, 255, 1);
 }
 
-main.about .box .title, section.info-list .info-item .title{
+main.about .box .title,
+section.info-list .info-item .title {
   margin: 10px 0 30px 0;
 }
 
@@ -218,5 +219,4 @@ footer a img {
   width: 15px;
   height: 15px;
 }
-
 </style>

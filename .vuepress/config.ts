@@ -1,56 +1,52 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
-import { prismjsPlugin } from '@vuepress/plugin-prismjs'
+import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import recoTheme from "vuepress-theme-reco";
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
 export default defineUserConfig({
-  lang: 'zh-CN',
+  lang: "zh-CN",
   title: "EveryDay All I love",
-  description: '永远相信美好的事情即将发生',
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
+  description: "永远相信美好的事情即将发生",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "Ayan",
     authorAvatar: "/aimyon.jpg",
-    head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }]
-    ],
+    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
     lastUpdatedText: "最近更新",
     navbar: [
-      { text: "首页", link: "/",icon: "Home" },
+      { text: "首页", link: "/", icon: "Home" },
       { text: "分类", link: "/categories/qianduan/1/", icon: "Category" },
       { text: "标签", link: "/tags/shenghuo/1/", icon: "Tag" },
-      { text: "时间轴", link: "/timeline"},
-      {text:'相册', link:"https://maybeayan.github.io/photoAlbum/"},
-      { text: '留言板', link: '/docs/message-board', icon: 'Chat' },
-      {text:'关于',link:'https://maybeayan.github.io/about/'}
+      { text: "时间轴", link: "/timeline" },
+      { text: "相册", link: "https://maybeayan.github.io/photoAlbum/" },
+      { text: "留言板", link: "/docs/message-board", icon: "Chat" },
+      { text: "关于", link: "https://maybeayan.github.io/about/" },
     ],
-    VuePreviewDir:"./docs/.vuepress/vue-previews",
+    VuePreviewDir: "./docs/.vuepress/vue-previews",
     componentsDir: "./docs/.vuepress/components",
     commentConfig: {
-      type: 'giscus',
+      type: "giscus",
       options: {
-        repo: 'MaybeAyan/docsV2',
-        repoId: 'R_kgDOKPJ_dw',
-        category: 'Announcements',
-        categoryId: 'DIC_kwDOKPJ_d84CZFjs',
-        mapping: 'title',
-        strict: '1',
-        lang: 'zh-CN',
-        crossorigin: 'anonymous'
-      }
+        repo: "MaybeAyan/docsV2",
+        repoId: "R_kgDOKPJ_dw",
+        category: "Announcements",
+        categoryId: "DIC_kwDOKPJ_d84CZFjs",
+        mapping: "title",
+        strict: "1",
+        lang: "zh-CN",
+        crossorigin: "anonymous",
+      },
     },
-    plugins:[
+    plugins: [
       prismjsPlugin({
-        preloadLanguages:['markdown', 'jsdoc', 'yaml']
+        preloadLanguages: ["markdown", "jsdoc", "yaml"],
       }),
       googleAnalyticsPlugin({
-        id: 'G-TND2H804VN',
+        id: "G-TND2H804VN",
       }),
-    ]
+    ],
   }),
 });
