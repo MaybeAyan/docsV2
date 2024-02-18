@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as c,c as n,d as r}from"./app-2c7e8012.js";const s={};function _(a,m){const e=t("aboutme");return c(),n("div",null,[r(e)])}const u=o(s,[["render",_],["__file","somePicture.html.vue"]]);export{u as default};
