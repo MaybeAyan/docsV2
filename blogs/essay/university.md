@@ -1,11 +1,10 @@
 ---
-title: '「我的大学」'
+title: "「我的大学」"
 date: 2021-12-24
 categories:
   - 随笔
-tags: 
+tags:
   - 生活
-next: /blogs/essay/newStart
 ---
 
 在一生仅有一次的大学生涯里  
@@ -38,4 +37,4 @@ next: /blogs/essay/newStart
 我的大学生涯的的确确是死了  
 那些人和物一起消失在我的人生里  
 唯独我还是我  
-带着旧的记忆开始新的生活  
+带着旧的记忆开始新的生活

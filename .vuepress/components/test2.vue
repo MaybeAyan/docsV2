@@ -10,7 +10,7 @@ import { ref, reactive } from "vue";
 const state = ref("");
 
 const handleChange = () => {
-  state.value += "123";
+  state.value = "changed";
 };
 </script>
 
