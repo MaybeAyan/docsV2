@@ -1,0 +1,1 @@
+import{g as a,h as s,o as n,c as o,f as c,t as r,b as _,_ as l}from"./app-d5c63569.js";const p=a({__name:"test",setup(u){const e=s(""),t=()=>{e.value+="123"};return(f,i)=>(n(),o("div",null,[c(r(e.value)+" ",1),_("button",{onClick:t},"change")]))}}),m=l(p,[["__file","test.vue"]]);export{m as default};
